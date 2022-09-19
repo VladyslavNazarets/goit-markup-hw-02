@@ -112,7 +112,7 @@ letter-spacing: 0.02em
 }
 /* sections */
 .decision{
-    
+  background-color: var(--footer-color);  
 
 }
 .decision-title{
@@ -123,12 +123,12 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--primari-text-color);
-background-color: var(--footer-color);
+
 }
 
 .button{
-    color:  var(--title-text-color);
-    background-color: var(--primari-text-color);
+    color:  var(--primari-text-color);
+    background-color: var(--accent-color);
 font-weight: 700;
 font-size: 16px;
 line-height:1.87;
@@ -137,6 +137,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
     cursor: pointer;
+    font-family: inherit;
 }
 .button:hover ,button:focus{
     color: var(--primari-text-color) ;
@@ -195,7 +196,6 @@ letter-spacing: 0.03em;
 
 .team-line{
     color: var(--title-info-kolor);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -226,6 +226,7 @@ font-size: 14px;
 line-height:1.71;
 letter-spacing: 0.03em;
 text-decoration:none;
+font-style: normal;
 }
 .visually-hidden {
     position: absolute;
@@ -252,32 +253,44 @@ text-decoration:none;
     line-height: 1.62;
     text-align: center;
     cursor: pointer;
+    font-family: inherit;
 }
 .button-portfolio:hover,
 .button-portfolio:focus{
     color:var(--primari-text-color) ;
     background-color: var(--accent-color) ;
 }
+.services{
+    text-decoration: none;
+}
+.services-title{
+    text-decoration: none;
+}
 .services-line{
- color:var(--title-info-kolor);
+ color: var(--title-info-kolor);
  font-size: 16px;
  line-height: 1.87;
  letter-spacing: 0.03em;
- text-decoration: none;
-}
-.services-link{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
- text-decoration: none;
-}
-.services-title{
-   
  
 }
+.services-link{
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
 
 
 .footer{
     background-color: var(--footer-color);
+}
+.logo-black{
+    color: var(--primari-text-color);
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-decoration: none;
 }
